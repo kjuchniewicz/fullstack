@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 100,
+            "driver": "SQLite",
+            "name": "gorm",
+            "group": "Dockerize-go",
+            "database": "${workspaceFolder:dockering}/gorm.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
